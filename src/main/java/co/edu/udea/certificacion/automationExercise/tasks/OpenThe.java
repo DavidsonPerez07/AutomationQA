@@ -1,6 +1,5 @@
 package co.edu.udea.certificacion.automationExercise.tasks;
 
-import co.edu.udea.certificacion.automationExercise.userinterfaces.AutomationExercisePage;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

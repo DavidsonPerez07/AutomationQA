@@ -25,4 +25,16 @@ public class Validate implements Question<String> {
     public static Validate registerWithExistingEmail(Target target) {
         return new Validate(target);
     }
+
+    public static Validate totalAmount(Target target) {
+        return new Validate(target);
+    }
+
+    public static Validate orderPlaced(Target target) {
+        return new Validate(target);
+    }
+
+    public static Validate loginWithIncorrectCredentials(Target target) {
+        return new Validate(target);
+    }
 }
